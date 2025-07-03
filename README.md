@@ -1,6 +1,6 @@
 # AuChAnn
 
-[![Actions Status](https://github.com/UUDigitalHumanitieslab/auchann/workflows/Unit%20tests/badge.svg)](https://github.com/UUDigitalHumanitieslab/auchann/actions)
+[![Actions Status](https://github.com/CentreForDigitalHumanities/auchann/workflows/Unit%20tests/badge.svg)](https://github.com/CentreForDigitalHumanities/auchann/actions)
 
 [pypi auchann](https://pypi.org/project/auchann)
 
@@ -13,7 +13,7 @@ CHAT-Annotation: 'ik wilt [: wil] nu &-eh na(ar) [* s:r:prep] huis'
 
 CHAT is an annotation convention that was developed for the CHILDES corpus (MacWinney, 2000) and is used by many linguists to annotate speech. For more information on CHAT,  you can read their manual: https://talkbank.org/manuals/CHAT.html.
 
-AuChAnn was specifically developed to enhance linguistic data in the form of a transcript and interpretation by a linguist for use with SASTA (https://github.com/UUDigitalHumanitieslab/sasta)
+AuChAnn was specifically developed to enhance linguistic data in the form of a transcript and interpretation by a linguist for use with SASTA (https://github.com/CentreForDigitalHumanities/sasta)
 
 ## Getting Started
 

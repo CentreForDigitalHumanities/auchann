@@ -14,7 +14,7 @@ setup(
     license='BSD-3 Clause',
     author='Digital Humanities Lab, Utrecht University',
     author_email='digitalhumanities@uu.nl',
-    url='https://github.com/UUDigitalHumanitieslab/auchann',
+    url='https://github.com/CentreForDigitalHumanities/auchann',
     install_requires=[
         'chamd>=0.5.8',
         'editdistance',
