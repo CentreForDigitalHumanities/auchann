@@ -5,7 +5,7 @@ with open('README.md') as file:
 
 setup(
     name='auchann',
-    version='0.2.0',
+    version='0.3.0',
     packages=find_packages(include=['auchann', 'auchann.*']),
     package_data={'auchann': ['py.typed']},
     description='The AuChAnn (Automatic CHAT Annotation) package can generate CHAT annotations based on a transcript-correction pairs of utterances.',
@@ -14,16 +14,16 @@ setup(
     license='BSD-3 Clause',
     author='Digital Humanities Lab, Utrecht University',
     author_email='digitalhumanities@uu.nl',
-    url='https://github.com/UUDigitalHumanitieslab/auchann',
+    url='https://github.com/CentreForDigitalHumanities/auchann',
     install_requires=[
         'chamd>=0.5.8',
-        'editdistance',
+        'levenshtein',
         'pyyaml-include'
     ],
     extras_require={
         'NL': ['sastadev>=0.03']
     },
-    python_requires='>=3.7',
+    python_requires='>=3.10',
     zip_safe=True,
     entry_points={
         'console_scripts': [
