@@ -17,7 +17,7 @@ setup(
     url='https://github.com/CentreForDigitalHumanities/auchann',
     install_requires=[
         'chamd>=0.5.8',
-        'editdistance',
+        'levenshtein',
         'pyyaml-include'
     ],
     extras_require={

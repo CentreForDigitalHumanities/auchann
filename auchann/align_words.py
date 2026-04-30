@@ -2,7 +2,7 @@ from typing import cast, Callable, Dict, Iterable, List, Optional, Tuple, Union
 from enum import Enum, unique
 from auchann.correct_parenthesize import correct_parenthesize
 import auchann.data as data
-import editdistance
+import Levenshtein
 
 
 @unique
@@ -152,7 +152,7 @@ class AlignmentSettings:
         self.fragments = data.fragments
 
         def __calc_distance(original: str, correction: str) -> int:
-            distance = editdistance.distance(original, correction)
+            distance = Levenshtein.distance(original, correction)
 
             # don't allow too strong of an edit distance (prevent gibberish replacement)
             wordlen = max(len(original), len(correction))

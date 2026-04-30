@@ -51,12 +51,12 @@ Various settings can be adjusted. Default values are used for every unchanged pr
 
 ```python
 from auchann.align_words import align_words, AlignmentSettings
-import editdistance
+import Levenshtein
 
 settings = AlignmentSettings()
 
 # Return the edit distance between the original and correction
-settings.calc_distance = lambda original, correction: editdistance.distance(original, correction)
+settings.calc_distance = lambda original, correction: Levenshtein.distance(original, correction)
 
 # Return an override of the distance and the error type;
 # if error type is None the distance returned will be ignored
