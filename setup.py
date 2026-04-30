@@ -17,13 +17,13 @@ setup(
     url='https://github.com/CentreForDigitalHumanities/auchann',
     install_requires=[
         'chamd>=0.5.8',
-        'editdistance',
+        'levenshtein',
         'pyyaml-include'
     ],
     extras_require={
         'NL': ['sastadev>=0.03']
     },
-    python_requires='>=3.7',
+    python_requires='>=3.10',
     zip_safe=True,
     entry_points={
         'console_scripts': [
